@@ -112,7 +112,49 @@
       }
   }
   @media (max-width: 575px) {
-    
+    .menu-area ul a {
+        font-size: 17px;
+        padding-left: 22px;
+    }
+    .header-bottom-area .header-text-area h3 {
+        font-size: 16px;
+    }
+    .header-bottom-area .header-text-area h1 {
+        font-size: 65px;
+    }
+    .price-tag{
+        position: absolute;
+        bottom: 35px;
+        right: 295px;
+        text-align: center;
+      }
+      .burger-img-area .price-tag h3 {
+        font-size: 30px;
+      }
+      .burger-img-area .price-tag h3 span {
+        font-size: 15px;
+      }
+      .burger-img-area .price-tag  h2{
+        font-size: 18px;
+        letter-spacing: 6px;
+      }
+      .section-5-images .image2 {
+        position: absolute;
+        left: 10px;
+        top: 250px;
+        width: 35%;
+    }
+    .book-table-form input {
+        width: 80%;
+        padding: 8px 12px;
+    }
+    .book-table-form input[type="submit"] {
+        width: 80%;
+        padding: 8px 12px;
+    }
+    footer {
+        background-size: auto;
+      }
   }
   @media (max-width: 389px) {
     
