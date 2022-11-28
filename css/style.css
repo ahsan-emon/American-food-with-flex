@@ -8,6 +8,7 @@ header {
   background-size: 100%;
 }
 .header-area {
+  padding-top: 20px;
   margin: auto;
 }
 .flex-test {
