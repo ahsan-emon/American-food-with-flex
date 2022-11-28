@@ -107,6 +107,9 @@
     .social-contact{
         justify-content: center;
       }
+      footer {
+        background-size: auto;
+      }
   }
   @media (max-width: 575px) {
     
