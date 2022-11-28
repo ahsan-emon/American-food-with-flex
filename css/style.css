@@ -8,8 +8,6 @@ header {
   background-size: 100%;
 }
 .header-area {
-  padding: 50px 0;
-  width: 97%;
   margin: auto;
 }
 .flex-test {
@@ -18,10 +16,10 @@ header {
   flex-wrap: wrap;
 }
 .header-logo-area {
-  width: 20%;
+  /* width: 20%; */
 }
 .menu-delivery-area {
-  width: 25%;
+  /* width: 25%; */
 }
 .delivery-area {
   padding-bottom: 10px;
@@ -50,9 +48,10 @@ header {
   font-weight: 100;
   letter-spacing: 3px;
   text-transform: uppercase;
+  padding-left: 30px;
 }
 .header-bottom-area .header-text-area {
-  padding-top: 190px;
+  padding-top: 150px;
 }
 .header-bottom-area .header-text-area h3 {
   text-transform: uppercase;
@@ -84,32 +83,27 @@ header {
   font-weight: 400;
 }
 .burger-img-area {
-  float: right;
   position: relative;
 }
-.burger-img-area img {
-  width: 800px;
-  height: 680px;
-}
-.burger-img-area h3 {
+.price-tag{
   position: absolute;
-  bottom: 100px;
-  right: 610px;
+  bottom: 65px;
+  right: 510px;
+  text-align: center;
+}
+.burger-img-area .price-tag h3 {
   color: rgb(255, 255, 255);
   font-family: "Bebas Neue", cursive;
   font-size: 46px;
   font-weight: 400;
 }
-.burger-img-area h3 span {
+.burger-img-area .price-tag h3 span {
   font-size: 20px;
 }
-.burger-img-area .only {
-  position: absolute;
-  bottom: 70px;
-  right: 590px;
+.burger-img-area .price-tag  h2{
   color: rgb(255, 255, 255);
   font-family: "Bebas Neue", cursive;
-  font-size: 25px;
+  font-size: 28px;
   letter-spacing: 12px;
   font-weight: 400;
 }
@@ -122,16 +116,15 @@ header {
   margin: 50px 0;
 }
 .section-1 .left-side {
-  width: 45%;
-  margin-left: 15px;
+  /* margin-left: 15px; */
 }
 .img img {
   width: 100%;
 }
 .section-1 .right-side {
-  width: 45%;
-  margin-right: 15px;
+  /* margin-right: 15px; */
 }
+
 .section-1 .right-side .top {
   margin-bottom: 47px;
 }
@@ -166,26 +159,17 @@ header {
 .section-3 {
   margin: 80px 0;
 }
-.section-3 ul {
-  list-style: none;
-}
-.section-3 ul li {
-  width: 30%;
-  text-align: center;
-}
-.section-3 ul li h1 {
+.section-3 div h1 {
   text-transform: uppercase;
   color: rgb(61, 37, 20);
   font-family: "Bebas Neue", cursive;
   font-size: 26px;
   font-weight: 400;
 }
-.section-3 ul li p {
+.section-3 div p {
   color: rgb(61, 37, 20);
-  width: 55%;
-  margin: auto;
 }
-.section-3 ul li button {
+.section-3 div button {
   font-family: "Alfa Slab One", cursive;
   background-color: rgb(191, 34, 34);
   color: rgb(255, 255, 255);
@@ -195,23 +179,16 @@ header {
   font-size: 18px;
   cursor: pointer;
 }
-.section-3 ul li:nth-child(1),
-.section-3 ul li:nth-child(3) {
-  padding: 20px 0px;
-}
 .section-4 {
   margin: 50px 0;
 }
 .section-4 .event-area {
-  width: 96%;
   margin: auto;
   background-color: rgb(255, 255, 255);
   box-shadow: rgb(0, 0, 0) 3px 10px 25px -15px;
 }
 .section-4 .event-area .section-4-text {
-  width: 46%;
-  padding: 40px 0;
-  margin-left: 30px;
+  padding: 40px 20px;
 }
 .section-4 .event-area .section-4-text h3 {
   text-transform: uppercase;
@@ -231,23 +208,12 @@ header {
 .section-4 .event-area .section-4-text p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.section-4 .event-area .section-4-img {
-  width: 48%;
-  margin-right: 15px;
-}
 .section-4 .event-area .section-4-img img {
-  width: 100%;
   margin: 15px 0;
-  height: 480px;
 }
 .section-5 {
   margin: 130px 0px 150px 0;
   position: relative;
-}
-.book-your-table {
-  width: 60%;
-  margin: auto;
-  text-align: center;
 }
 .book-your-table h2 {
   font-family: "Bebas Neue", cursive;
@@ -268,11 +234,8 @@ header {
   width: 70%;
   margin: auto;
 }
-.book-table-form ul {
-  list-style: none;
-}
 .book-table-form input {
-  width: 327px;
+  width: 70%;
   padding: 15px 17px;
   margin: 15px 0;
   border: 1px solid rgb(223, 223, 223);
@@ -288,7 +251,7 @@ header {
   letter-spacing: 0.5px;
 }
 .book-table-form input[type="submit"] {
-  width: 364px;
+  width: 70%;
   background-color: rgb(191, 34, 34);
   color: rgb(255, 255, 255);
   font-family: "Alfa Slab One", cursive;
@@ -312,19 +275,16 @@ header {
   bottom: -270px;
 }
 footer {
-  width: 98%;
-  margin: auto auto 40px;
   background-image: url("../images/footer-background.png");
   background-repeat: no-repeat;
   background-size: 100%;
+  background-size: auto;
 }
 .footer-area {
-  padding: 50px 0 10px 0;
-  width: 97%;
-  margin: auto;
+  padding: 20px 0 0px 0;
 }
 .center-area .footer-text-area {
-  width: 30%;
+  width: 35%;
   padding-top: 20px;
 }
 .center-area .footer-text-area p {
@@ -339,38 +299,22 @@ footer {
 }
 .loc-mail-area {
   color: rgb(255, 255, 255);
-  width: 20%;
-}
-.loc-mail-area ul li {
-  width: 8%;
-}
-.loc-mail-area ul li:nth-child(2n) {
-  width: 90%;
 }
 .loc-mail-area ul {
   list-style: none;
 }
-.loc-mail-area ul li:nth-child(1),
-.loc-mail-area ul li:nth-child(2) {
-  padding-top: 50px;
+.loc-mail-area ul li{
+  padding-top: 10px;
 }
-.loc-mail-area ul li:nth-child(3),
-.loc-mail-area ul li:nth-child(4) {
-  padding-top: 8px;
+.loc-mail-area ul li i{
+  padding-right: 10px;
 }
 .footer-bottom-area {
-  padding-top: 150px;
-  padding-bottom: 5px;
-}
-.footer-bottom-area .left-bottom {
-  width: 20%;
+  padding-bottom: 10px;
 }
 .footer-bottom-area .left-bottom p {
   font-family: "Bebas Neue", cursive;
   color: rgb(255, 255, 255);
-}
-.footer-bottom-area .right-bottom {
-  width: 10%;
 }
 .footer-bottom-area .right-bottom ul {
   list-style: none;
@@ -379,4 +323,16 @@ footer {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 28px;
+}
+.loc-mail-area ul li span{
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+}
+.social-contact{
+  display: flex;
+  justify-content: flex-end;
+  justify-content: end;
+}
+.social-contact li a{
+  padding-left: 20px;
 }

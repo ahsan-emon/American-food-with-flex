@@ -1,0 +1,117 @@
+@media (max-width: 1300px) {
+      .price-tag{
+        position: absolute;
+        bottom: 55px;
+        right: 450px;
+        text-align: center;
+      }
+  }
+@media (max-width: 1250px) {
+      .price-tag{
+        position: absolute;
+        bottom: 55px;
+        right: 430px;
+        text-align: center;
+      }
+  }
+@media (max-width: 1200px) {
+      .price-tag{
+        position: absolute;
+        bottom: 55px;
+        right: 410px;
+        text-align: center;
+      }
+  }
+@media (max-width: 1100px) {
+      .price-tag{
+        position: absolute;
+        bottom: 45px;
+        right: 360px;
+        text-align: center;
+      }
+      .burger-img-area .price-tag h3 {
+        font-size: 35px;
+      }
+      .burger-img-area .price-tag h3 span {
+        font-size: 16px;
+      }
+      .burger-img-area .price-tag  h2{
+        font-size: 20px;
+        letter-spacing: 8px;
+      }
+  }
+@media (max-width: 1024px) {
+    .header-bottom-area .header-text-area {
+        padding-top: 100px;
+      }
+      .price-tag{
+        position: absolute;
+        bottom: 45px;
+        right: 360px;
+        text-align: center;
+      }
+      .burger-img-area .price-tag h3 {
+        font-size: 35px;
+      }
+      .burger-img-area .price-tag h3 span {
+        font-size: 16px;
+      }
+      .burger-img-area .price-tag  h2{
+        font-size: 20px;
+        letter-spacing: 8px;
+      }
+      .section-5-images .image2 {
+        position: absolute;
+        left: 90px;
+        top: 150px;
+    }
+    .center-area .footer-text-area {
+        width: 50%;
+      }
+  }
+  @media (max-width: 767px) {
+    .price-tag{
+        position: absolute;
+        bottom: 90px;
+        right: 560px;
+        text-align: center;
+      }
+      .burger-img-area .price-tag h3 {
+        font-size: 35px;
+      }
+      .burger-img-area .price-tag h3 span {
+        font-size: 16px;
+      }
+      .burger-img-area .price-tag  h2{
+        font-size: 20px;
+        letter-spacing: 8px;
+      }
+      .section-5-images .image2 {
+        position: absolute;
+        left: 40px;
+        top: 200px;
+        width: 28%;
+    }
+    .section-5-images .image1 {
+        position: absolute;
+        left: 0px;
+        top: -165px;
+        width: 35%;
+    }
+    .section-5-images .image3 {
+        position: absolute;
+        right: 0px;
+        bottom: -230px;
+        width: 30%;
+    }
+    .social-contact{
+        justify-content: center;
+      }
+  }
+  @media (max-width: 575px) {
+    
+  }
+  @media (max-width: 389px) {
+    
+  }
+  
